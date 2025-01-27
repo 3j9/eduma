@@ -1,0 +1,68 @@
+div.container {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.space {
+    width: 20%;
+}
+
+div.container div.main_mid {
+    width: 80%;
+}
+
+div.container p {
+    margin-bottom: 30px;
+}
+
+div.container p,
+div.container h1 {
+    color: rgba(10, 17, 50);
+}
+
+
+div.container div.offers {
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.container div.offers div.backof{
+    width: 30%;
+    height: 400px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+div.container div.offers div.backof:nth-child(1){
+    background-image: url('../../assets/graduate1.jpg');
+}
+div.container div.offers div.backof:nth-child(2){
+    background-image: url('../../assets/graduate2.jpg');
+}
+div.container div.offers div.backof:nth-child(3){
+    background-image: url('../../assets/graduate3.jpg');
+}
+
+
+div.container div.offers div.backof .infoof {
+    background-color: rgba(10, 17, 50, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 300ms;
+}
+div.container div.offers div.backof .infoof p {
+    color: white;
+}
+
+
+div.container div.offers div.backof:hover .infoof{
+    opacity: 1;
+}

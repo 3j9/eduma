@@ -1,0 +1,13 @@
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid black;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+.footer div a:last-child {
+    margin-left: 20px;
+}

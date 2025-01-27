@@ -1,0 +1,103 @@
+div.cam_info {
+    margin-top: 140px;
+}
+
+div.cam_info {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+div.cam_info p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #1C3399;
+}
+
+div.cam_info h1 {
+    color: rgb(7, 21, 90);
+}
+
+.images {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images .corr {
+    width: 80%;
+}
+
+.images .corr .flex {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.images div.space {
+    width: 20%;
+}
+
+.images .image img {
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(39, 39, 39, 0.209);
+}
+
+
+
+.campus button {
+    position: relative;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    background-color: #1C3399;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    padding: 0.8rem 1.6rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 300ms;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: left;
+}
+
+.campus button i {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 10px;
+    transition: 300ms;
+    transition-delay: 100ms;
+
+}
+
+.campus button:hover {
+    padding-right: 50px;
+}
+
+.campus button:hover i {
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .images .corr {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .images .corr {
+        flex: 100%;
+        max-width: 100%;
+    }
+}

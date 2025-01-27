@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../../assets/icons/fonts/icomoon.eot?uudzm1');
+    src: url('../../assets/icons/fonts/icomoon.eot?uudzm1#iefix') format('embedded-opentype'),
+        url('../../assets/icons/fonts/icomoon.ttf?uudzm1') format('truetype'),
+        url('../../assets/icons/fonts/icomoon.woff?uudzm1') format('woff'),
+        url('../../assets/icons/fonts/icomoon.svg?uudzm1#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+div.testimonials {
+    margin-top: 140px;
+}
+
+div.testimonials .info {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+div.testimonials .info p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #1C3399;
+}
+
+div.testimonials .user_in .image div p {
+    text-align: left;
+}
+
+
+div.testimonials .info h1 {
+    color: rgb(7, 21, 90);
+}
+
+div.testimonials .slider-container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.slick-slide>div {
+    margin: 50px 50px;
+    text-align: center;
+}
+
+.slick-next:before {
+    content: "\e900" !important;
+}
+
+button.slick-prev:first-child {
+    left: -55px !important;
+}
+
+.slick-prev:before {
+    content: "\e900" !important;
+    transform: rotate(3.142rad);
+    margin-right: 100px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    font-family: 'icomoon' !important;
+    color: rgb(255, 255, 255);
+    font-size: 30px !important;
+    background-color: rgb(7, 21, 90) !important;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    margin: 30px 0;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(45, 45, 45, 0.1);
+    background-color: #f1f1f1;
+}
+
+div.user_in {
+    justify-content: space-between;
+}
+
+div.user_in div.image {
+    justify-content: left;
+    align-items: center;
+}
+
+div.user_in div.image img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    border: 2px solid #1C3399;
+}
+
+div.user_in div.image div p:first-child {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(7, 21, 90);
+}
+
+
+.card div.comment {
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+
+    .card {
+        width: 50%;
+    }
+
+    div.user_in div.image img {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .card div.comment {
+        justify-content: left;
+        align-items: center;
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    div.user_in div.image div p:first-child {
+        font-size: 12px;
+    }
+
+    .slick-slide>div {
+        margin: 5px 5px;
+    }
+    .slick-prev::before,
+    .slick-next::before {
+        width: 10px;
+        height: 10px;
+        padding: 10px;
+    }
+    button.slick-prev:first-child {
+        left: -30px !important;
+    }
+
+}

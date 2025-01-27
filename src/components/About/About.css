@@ -1,0 +1,41 @@
+div.about {
+    margin-top: 140px;
+    justify-content: space-between;
+}
+
+div.about  .main_about {
+    width: 80%;
+    align-items: center;
+}
+
+div.about  .main_about div.vid {
+    width: 40%;
+    margin-right: 5%;
+    height: 500px;
+    background-image: url('../../assets/vid.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
+
+div.about  .main_about div.about_info {
+    width: 50%;
+}
+
+div.about  .main_about div.about_info h2 {
+    margin-bottom: 20px;
+    color: #1C3399;
+}
+
+div.about  .main_about div.about_info h1 {
+    margin-bottom: 20px;
+    color: rgb(7, 21, 90);
+    line-height: 40px;
+}
+
+div.about  .main_about div.about_info p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}

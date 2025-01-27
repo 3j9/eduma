@@ -1,0 +1,124 @@
+div.contact {
+    margin-top: 140px;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+div.contact .space {
+    width: 20%;
+}
+
+div.contact .content {
+    width: 80%;
+}
+
+div.contact .content .text {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+div.contact .content .text p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #1C3399;
+}
+
+div.contact .content .text h1 {
+    color:  rgb(7, 21, 90);
+}
+
+
+
+.form_area {
+    justify-content: space-between;
+}
+.form_area .form {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.form_area .formtext {
+    padding-right: 60px;
+    width: 50%;
+}
+.form_area .formtext h2{
+    margin-bottom: 30px;
+
+}
+
+.form_area .formtext p {
+    line-height: 20px;
+    color: rgb(97, 97, 97);
+}
+.form_area .formtext p{
+    margin-bottom: 30px;
+}
+
+
+.form_area .form form div {
+    display: flex;          
+    flex-direction: column; 
+    margin-bottom: 15px;  
+}
+
+.form_area .form form div label {
+    color: rgb(97, 97, 97);
+    margin-bottom: 10px;
+}
+
+.form_area .form form div input {
+    padding: 15px;
+    width: 90%;
+    border: 1px solid rgb(230, 230, 230);
+    outline: inherit;
+    border-radius: 5px;
+}
+
+.form_area .form form div input:focus{
+    outline: inherit;
+}
+
+.form_area .form form div textarea {
+    width: 90%;
+    height: 100px;
+    outline: inherit;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+.form_area .form form button {
+
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    background-color: #1C3399;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    padding: 0.8rem 1.6rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 300ms;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: left;
+}
+
+.form_area .form form button i {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 10px;
+    transition: 300ms;
+    transition-delay: 100ms;
+}
+
+.form_area .form form button:hover {
+    padding-right: 50px;
+}
+
+.form_area .form form button:hover i{
+    right: 0;
+}
